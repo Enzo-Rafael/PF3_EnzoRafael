@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UACompatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculadora Juros</title>
+   <link rel="stylesheet" href="popando.css">
+</head>
+<body>
+    <header>
+         <h1>Calculador</h1>
+    </header>
+    
+    <section>
+        <div class="input">
+            <label>Nome:</label>
+            <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+        <div class="input">
+            <label>valor a ser aplicado:</label>
+            <input  placeholder="Qual é o valor?"  type="number" id='v_aplicado' required="required">
+        </div>
+        <div class="imput">
+            <label>juros:</label>
+            <input placeholder="Qual é o juros?" type="number" id='t_juros' required="required" >
+        </div>
+       <div class="input"> 
+            <label>Parcelas:</label>
+            <input placeholder="Qual é o numero de parcelas?" type="number" id='n_parcelas' required="required">
+        </div>
+       
+        <button id='calcular'>Calcular</button>
+        <div class="result" id='resultado'>
+        </div>
+    </section>
+    <footer>
+        <p> Prova TPA 3A2 ENZO</p>
+    </footer>
+    <script src="popando.js">
+
+    </script>
+</body>
+</html>
